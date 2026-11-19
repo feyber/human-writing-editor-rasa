@@ -590,6 +590,6 @@ Before finalizing, check:
 
 This skill combines concepts from `avoid-ai-writing` and `humanizer`. The humanizer pattern set is based on Siqi Chen's `blader/humanizer` project and Wikipedia's "Signs of AI writing" cleanup guidance.
 
-The Bahasa Indonesia mode adapts the plain-language rules and the RASA framework (Ritmis, Akurat, Sarat Makna, Alami) from the [Bahasa Indonesia plain skill gist](https://gist.github.com/orepras/3e1ca8974fc51d11825f142fa6a66635) by orepras.
+The Bahasa Indonesia mode adapts the plain-language rules and the RASA framework (Ritmis, Akurat, Sarat Makna, Alami) from the [Bahasa Indonesia plain skill gist](https://gist.github.com/orepras/3e1ca8974fc51d11825f142fa6a66635) by [orepras](https://x.com/orepras).
 
 Version 2.0.0 was prepared by Feyber with Hermes Agent and DeepSeek. Preserve attribution and compatible licensing when publishing publicly.

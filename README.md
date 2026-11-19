@@ -14,7 +14,7 @@ Alat ini bukan pendeteksi AI, dan tidak menjanjikan tulisan lolos detektor. Dete
 Repo ini menggabungkan dua sumber:
 
 - [human-writing-editor](https://github.com/feyber/human-writing-editor) karya Feyber, untuk audit pola tulisan AI, humanisasi, pencocokan suara, dan skor 50.
-- [Skill Bahasa Indonesia plain dan RASA](https://gist.github.com/orepras/3e1ca8974fc51d11825f142fa6a66635) karya orepras, untuk bahasa polos, EYD, bahasa inklusif, desain ramah trauma, dan kerangka RASA.
+- [Skill Bahasa Indonesia plain dan RASA](https://gist.github.com/orepras/3e1ca8974fc51d11825f142fa6a66635) karya [orepras](https://x.com/orepras), untuk bahasa polos, EYD, bahasa inklusif, desain ramah trauma, dan kerangka RASA.
 
 ## Mulai cepat
 
@@ -123,7 +123,7 @@ Dua masalah ini sering muncul bersamaan. Karena itu, alat ini tidak hanya mengga
 | Lapisan | Sumber | Yang dibawa |
 | --- | --- | --- |
 | Inti penyuntingan | [human-writing-editor](https://github.com/feyber/human-writing-editor) | Audit AI-ism, humanisasi, pencocokan suara, skor lima dimensi. |
-| Lensa Bahasa Indonesia | [gist orepras](https://gist.github.com/orepras/3e1ca8974fc51d11825f142fa6a66635) | Bahasa polos, EYD, inklusif, ramah trauma, angka, teks antarmuka, RASA. |
+| Lensa Bahasa Indonesia | [Gist Bahasa Indonesia](https://gist.github.com/orepras/3e1ca8974fc51d11825f142fa6a66635) oleh [orepras](https://x.com/orepras) | Bahasa polos, EYD, inklusif, ramah trauma, angka, teks antarmuka, RASA. |
 
 Kenapa digabung:
 
@@ -137,7 +137,7 @@ Yang berubah dari versi sebelumnya:
 - RASA bukan lagi daftar periksa tambahan. RASA menjadi gerbang sebelum tulisan dianggap selesai.
 - Aturan EYD, inklusif, dan ramah trauma masuk ke dalam proses, bukan ditempel di akhir.
 
-Kerangka RASA dan prinsip bahasa polos diadaptasi dari gist orepras. Kami cantumkan sumbernya di [Lisensi dan atribusi](#lisensi-dan-atribusi).
+Kerangka RASA dan prinsip bahasa polos diadaptasi dari gist [orepras](https://x.com/orepras). Kami cantumkan sumbernya di [Lisensi dan atribusi](#lisensi-dan-atribusi).
 
 ## Cara kerja
 
@@ -1038,7 +1038,7 @@ Repo ini memakai lisensi MIT. Lihat [LICENSE](LICENSE).
 Sumber dan kontribusi:
 
 - [human-writing-editor](https://github.com/feyber/human-writing-editor) oleh Feyber. Menjadi inti audit AI-ism, humanisasi, dan skor.
-- [Gist Bahasa Indonesia plain dan RASA](https://gist.github.com/orepras/3e1ca8974fc51d11825f142fa6a66635) oleh orepras. Menjadi sumber kerangka RASA, bahasa polos, EYD, inklusif, dan desain ramah trauma.
+- [Gist Bahasa Indonesia plain dan RASA](https://gist.github.com/orepras/3e1ca8974fc51d11825f142fa6a66635) oleh [orepras](https://x.com/orepras). Menjadi sumber kerangka RASA, bahasa polos, EYD, inklusif, dan desain ramah trauma.
 - Pola humanizer merujuk pada proyek [blader/humanizer](https://github.com/blader/humanizer) dan panduan [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
 - README edisi RASA disusun bersama DeepSeek, lalu ditinjau oleh manusia.
 
@@ -1049,7 +1049,7 @@ Kerangka RASA diadaptasi, bukan disalin mentah. Hak atas kerangka tetap milik pe
 | Nama | Peran | Tautan |
 | --- | --- | --- |
 | Feyber | Pemilik repo, penulis Human Writing Editor, editor akhir. | [github.com/feyber](https://github.com/feyber) |
-| orepras | Penulis skill Bahasa Indonesia plain dan kerangka RASA. | [Gist orepras](https://gist.github.com/orepras/3e1ca8974fc51d11825f142fa6a66635) |
+| [orepras](https://x.com/orepras) | Penulis skill Bahasa Indonesia plain dan kerangka RASA. | [Gist](https://gist.github.com/orepras/3e1ca8974fc51d11825f142fa6a66635) |
 | DeepSeek | Agen AI. Menyusun draf README edisi RASA, memadukan aturan, dan menguji contoh. | [deepseek.com](https://www.deepseek.com) |
 | Hermes Agent | Co-author `SKILL.md` versi 1.0.0. | tidak ada |
 
@@ -1072,11 +1072,11 @@ Urutan tidak menunjukkan besar kontribusi. Kontribusi agen AI ditinjau manusia s
 ## Referensi
 
 - [human-writing-editor](https://github.com/feyber/human-writing-editor)
-- [Gist Bahasa Indonesia plain dan RASA oleh orepras](https://gist.github.com/orepras/3e1ca8974fc51d11825f142fa6a66635)
+- [Gist Bahasa Indonesia plain dan RASA](https://gist.github.com/orepras/3e1ca8974fc51d11825f142fa6a66635) oleh [orepras](https://x.com/orepras)
 - [Wikipedia: Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing)
 - [blader/humanizer](https://github.com/blader/humanizer)
 - [EYD Edisi V, Badan Pengembangan dan Pembinaan Bahasa](https://ejaan.kemdikbud.go.id/)
 
 ---
 
-English summary: a portable agent skill for writing and editing Indonesian text. It combines AI-ism detection and a 50-point score from feyber/human-writing-editor with plain language, EYD, inclusive design, and the RASA gate (rhythm, accuracy, meaning density, natural voice) from orepras's gist. Contributions welcome.
+English summary: a portable agent skill for writing and editing Indonesian text. It combines AI-ism detection and a 50-point score from feyber/human-writing-editor with plain language, EYD, inclusive design, and the RASA gate (rhythm, accuracy, meaning density, natural voice) from the gist by [orepras](https://x.com/orepras). Contributions welcome.
